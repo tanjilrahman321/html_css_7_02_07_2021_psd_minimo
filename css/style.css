@@ -1,0 +1,111 @@
+/*Fonts Start*/
+
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face{
+	font-family: PlayfairDisplay-bold;
+	src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face{
+	font-family: Ubuntu-Light;
+	src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+/*Fonts End*/
+
+/*Common Style*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+}
+
+/*Common style end*/
+
+/*Header Section Start*/
+
+header{
+
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+}
+
+.header{
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.header .logo{
+	margin-top: 12px;
+	float: left;
+	width: 10%;
+}
+
+.header .logo img{
+	width: 100%;
+}
+
+.menubar{
+	float: right;
+	width: 70%;
+}
+
+.menubar ul{
+	float: right;
+}
+
+.menubar ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 130px;
+}
+
+.menubar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #626262;
+	transition: 0.3s;
+}
+
+.menubar ul li a:hover{
+	color: black;
+}
+
+.menubar ul li:last-child{
+	margin-right: 0;
+}
+
+/*Header section end*/
+
+
+/*Banner Start*/
+
+.banner img{
+	width: 100%;
+}
+
+
+/*Banner end*/ -->
